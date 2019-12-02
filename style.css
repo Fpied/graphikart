@@ -1,0 +1,61 @@
+body
+{
+    margin: 0;
+    line-height: 1.6;
+    font-family: "Source Sans Pro", sans-serif;
+    
+}
+.header
+{
+    background: grey;
+    padding: 20px;
+    height: auto;
+    color: #ffffff;
+
+}
+
+.header-title
+{
+    margin-top: 0px;
+    font-weight: 900;
+}
+.header-nav
+{
+    text-align: center;
+    margin: 20px 0;
+}
+.header-nav a
+{
+    margin: 0 10px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+.header-nav a:hover 
+{
+    text-decoration: underline;
+}
+.header img
+{
+    width: 100%;
+    height: auto;
+}
+.main
+{
+    background: lightgrey;
+    padding: 20px;
+    font-size: 16px;
+
+}
+.main p
+{
+    text-transform: uppercase;
+   text-align: justify; 
+}
+.footer
+{
+    background: grey;
+    padding: 10px 20px;
+
+}

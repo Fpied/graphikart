@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mon restaurant, contact</title>
+</head>
+<body>
+    <header>
+        <h1>Nous contacter</h1>
+        <nav>
+            <a href="index.html" title="accueil">Accueil</a>
+            <a href="menu.html" title="Voir le menu">Menu</a>
+            <a href="contact.html" title="Nous contacter">Contact</a>
+            <link href="style.css" rel="stylesheet">
+        </nav>
+        <img src="img/banniere-restaurant-fiasco.jpg" alt="photo du restaurant le fiasco" width="1260" height="366">
+    </header>
+    <section>
+        <h2>Oû nous trouver</h2>
+        <p>
+            128 rue de démonstration<br>
+            34000 Montpellier<br>
+            France
+        </p>
+        <iframe width="1200" height="300" src="https://www.openstreetmap.org/export/embed.html?bbox=3.841352462768555%2C43.57995561907084%2C3.8895893096923833%2C43.62128904169025&amp;layer=cyclemap" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=14/43.6006/3.8655&amp;layers=C">Afficher une carte plus grande</a></small>
+        <h2>Nous envoyer un email</h2>
+        <form action="contact.html">
+            <div>
+                <label for="email">Votre email <sup>*</sup></label>
+                <input type="email" required id="email" name="email" placeholder="votre@email.fr">
+            </div>
+            <div>
+                <label for="firstname">Prénom <sup>*</sup></label>
+                <input type="text" required id="firstname" name="firstname">
+            </div>
+            <div>
+                <label for="message">Votre message <sup>*</sup></label>
+                <textarea required id="message" name="message" placeholder="votre message"></textarea>
+            </div>
+            <input type="submit" value="envoyer">            
+        </form>
+    </section>
+    <footer>
+        <address>
+            128 rue de démonstration
+        </address>
+    </footer>
+    
+</body>
+</html>
